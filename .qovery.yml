@@ -1,0 +1,15 @@
+---
+application:
+  name: "mintable"
+  project: "cozyox69"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "cozyox69"
+  version: "12"
+routers:
+- name: "main-mintable"
+  routes:
+  - application_name: "mintable"
+    paths:
+    - "/*"
